@@ -1,54 +1,270 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Korea1代购贸易物流</title>
+
 <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,"Microsoft YaHei";
+}
+
 body{
-background:#18a34a;
-font-family:Arial;
-text-align:center;
-padding-top:80px;
+    background:#f5f5f5;
+    color:#333;
 }
-.box{
-background:white;
-width:700px;
-margin:auto;
-padding:50px;
-border-radius:20px;
+
+.header{
+    background:#0b7d47;
+    color:#fff;
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
-h1{
-color:#18a34a;
-font-size:40px;
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
 }
-p{
-font-size:24px;
-line-height:45px;
+
+.menu a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:16px;
 }
-.wx{
-font-size:34px;
-color:red;
-font-weight:bold;
+
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url("https://images.unsplash.com/photo-1549692520-acc6669e2f0c?q=80&w=1600");
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    text-align:center;
+    padding:130px 20px;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:40px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#d4af37;
+    color:#fff;
+    text-decoration:none;
+    border-radius:40px;
+    margin:10px;
+    font-size:18px;
+}
+
+.section{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:70px 0;
+}
+
+.title{
+    text-align:center;
+    font-size:36px;
+    color:#0b7d47;
+    margin-bottom:50px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.card h3{
+    color:#0b7d47;
+    margin-bottom:20px;
+    font-size:24px;
+}
+
+.card p{
+    line-height:35px;
+}
+
+.about{
+    background:#fff;
+    text-align:center;
+    padding:80px 10%;
+}
+
+.about h2{
+    color:#0b7d47;
+    font-size:38px;
+    margin-bottom:25px;
+}
+
+.about p{
+    line-height:40px;
+    font-size:20px;
+}
+
+.contact{
+    background:#0b7d47;
+    color:#fff;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.contact h2{
+    font-size:38px;
+    margin-bottom:35px;
+}
+
+.contact p{
+    font-size:24px;
+    line-height:45px;
+}
+
+.footer{
+    background:#111;
+    color:#ccc;
+    text-align:center;
+    padding:25px;
 }
 </style>
+
 </head>
 <body>
-<div class="box">
-<h1>Korea1代购贸易物流</h1>
 
-<p>🇰🇷 韩国代购 · 国际贸易 · 跨境物流</p>
+<div class="header">
+    <div class="logo">🇰🇷 Korea1代购贸易物流</div>
 
-<p>
-✔ 韩国品牌采购<br>
-✔ MLB、电子产品采购<br>
-✔ 香港、中国物流运输<br>
-✔ 物流周期：3-5天
-</p>
+    <div class="menu">
+        <a href="#">首页</a>
+        <a href="#">免税店返点代购</a>
+        <a href="#">国际贸易</a>
+        <a href="#">跨境物流</a>
+        <a href="#">明星周边</a>
+        <a href="#">超牌业务</a>
+    </div>
+</div>
 
-<p class="wx">
-微信：dapeng999
-</p>
+<div class="hero">
+    <h1>韩国免税店返点代购 · 国际贸易 · 跨境物流</h1>
+
+    <p>
+    立足韩国首尔明洞，为全球客户提供韩国采购及贸易一站式服务
+    </p>
+
+    <a href="#" class="btn">微信咨询</a>
+    <a href="#" class="btn">商务合作</a>
+</div>
+
+<div class="section">
+
+    <h2 class="title">核心业务</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>🛍 免税店返点代购</h3>
+            <p>
+            乐天免税店<br>
+            新罗免税店<br>
+            新世界免税店<br>
+            韩国品牌采购
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌏 国际贸易</h3>
+            <p>
+            韩国品牌采购<br>
+            美妆护肤<br>
+            电子产品<br>
+            企业采购合作
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📦 跨境物流</h3>
+            <p>
+            韩国 → 中国<br>
+            韩国 → 香港<br>
+            韩国 → 澳门<br>
+            空运 · 海运 · 快递
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>⭐ 明星周边</h3>
+            <p>
+            官方周边商品<br>
+            演唱会限定商品<br>
+            小卡专辑<br>
+            应援商品采购
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>👟 超牌业务</h3>
+            <p>
+            潮流服饰<br>
+            鞋帽配件<br>
+            品牌供应链合作<br>
+            批发采购服务
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<div class="about">
+
+    <h2>关于我们</h2>
+
+    <p>
+    🏢 韩国法人公司运营<br><br>
+    📍 韩国首尔特别市中区明洞办公<br><br>
+    🤝 深耕韩国市场20年<br><br>
+    🌏 服务中国、香港及全球客户
+    </p>
 
 </div>
+
+<div class="contact">
+
+    <h2>联系我们</h2>
+
+    <p>
+    💬 微信（WeChat）：danhan-prada<br><br>
+    💬 KakaoTalk：dapeng999<br><br>
+    📍 Seoul, Republic of Korea
+    </p>
+
+</div>
+
+<div class="footer">
+© 2026 Korea1代购贸易物流 | All Rights Reserved
+</div>
+
 </body>
 </html>
